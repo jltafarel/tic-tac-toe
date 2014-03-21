@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Jogo da velha</title>
+		<script type="text/javascript" src= "application.js"></script>
+		<link href= "application.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<h1 class="titulo">Tic-Tac-Toe</h1>
+		<div class='jogo'>
+			<table class='tabuleiro'>
+				<tr>
+					<td id="c_0_0" onclick="marcar(this)"></td>
+					<td id="c_0_1" onclick="marcar(this)"></td>
+					<td id="c_0_2" onclick="marcar(this)"></td>
+				</tr>
+				<tr>
+					<td id="c_1_0" onclick="marcar(this)"></td>
+					<td id="c_1_1" onclick="marcar(this)"></td>
+					<td id="c_1_2" onclick="marcar(this)"></td>
+				</tr>
+				<tr>
+					<td id="c_2_0" onclick="marcar(this)"></td>
+					<td id="c_2_1" onclick="marcar(this)"></td>
+					<td id="c_2_2" onclick="marcar(this)"></td>
+				</tr>
+			</table>
+			<button class="botao" onclick="limparJogo()">Limpar Jogo</button>
+		</div>
+		<div class="footer"></div>
+	</body>
+</html>
